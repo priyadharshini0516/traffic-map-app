@@ -1,0 +1,29 @@
+/* Center the search bar */
+.leaflet-control-geocoder {
+  position: absolute;
+  top: 10px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  z-index: 1000;
+}
+
+/* Style the "My Location" button */
+.map-btn {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  padding: 10px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.map-btn:hover {
+  background-color: #0056b3;
+}
